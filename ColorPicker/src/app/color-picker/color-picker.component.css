@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.selected-color {
+    width: 280px;
+    height: 280px;
+    margin-bottom: 20px;
+}
+
+.color-picker-options{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-option{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    cursor: pointer;
+}
+.selected-color-name {
+    color: black;
+    margin-top: 10px;
+}
+
